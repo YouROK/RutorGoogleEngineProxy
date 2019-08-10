@@ -112,7 +112,7 @@ class MainHandler(webapp2.RequestHandler):
                 headers=headers,
                 allow_truncated=False,
                 follow_redirects=False,
-                deadline=30
+                deadline=120
             )
         except Exception as e:
             self.response.set_status(504)
