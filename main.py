@@ -42,7 +42,8 @@ from google.appengine.api import urlfetch
 class MainHandler(webapp2.RequestHandler):
 
     def __init__(self, request=None, response=None):
-        self.setup_host(self)
+        self.setup_host()
+        self.initialize(request, response)
 
     def head(self):
         self.get()
