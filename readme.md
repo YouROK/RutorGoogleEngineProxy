@@ -25,7 +25,7 @@ Webproxy Rutor.org
 
 Чтобы приступить к развертыванию приложения на сервере выполните команду:
 
-    gcloud app deploy webproxy/app.yaml --version 1 --project ваш_Project_ID
+    gcloud app deploy RutorGoogleEngineProxy/app.yaml --version 1 --project ваш_Project_ID
 
 Будет выведен список доступных площадок:
 
@@ -41,7 +41,7 @@ Webproxy Rutor.org
 >
 >Please enter your numeric choice:
 
-Если вы не знаете что выбрать, можете просто нажать "1" и клавишу ввода. 
+Выберите сервер находящийся поближе к вам, или можете просто нажать "1" и клавишу ввода. 
 
 Утилита установит соединение с указанной площадкой:
 
