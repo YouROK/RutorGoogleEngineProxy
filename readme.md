@@ -1,6 +1,9 @@
 Webproxy Rutor.org
 ========
 
+Спасибо https://github.com/stopcenz/webproxy
+
+
 Развертывание на Google App Engine
 ---------------------------------
 
